@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #120d13;
+}
+
+header {
+    padding: 16px;
+    background-color: #69192f;
+    color: #120d13;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #120d13;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list ion-icon {
+    font-size: 26px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 4px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.container .texto {
+    color: #69192f;
+    margin-left: 32px;
+}
+
+.loja {
+    height: 400px;
+}
+
+ion-icon {
+    color: #69192f;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #69192f;
+}
+
+section {
+    color: #69192f;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.header-mais {
+    text-decoration: none;
+}
+
+.social-links ion-icon {
+    font-size: 24px;
+    color: #69192f;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #69192f;
+    border: none;
+}
+
+input::placeholder,
+textarea::placeholder,
+form button {
+    color: #120d13;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form input,
+form textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+form button {
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #85213b;
+}
+
+input:focus, textarea:focus {
+    outline-color: #85213b;
+}
+
+footer {
+    background-color: #69192f;
+    color: #120d13;
+    padding: 16px 0;
+}
